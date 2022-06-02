@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de moedas </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Conversor de moedas
+  </h1>
+  <p class="page-subtitle">
+    Descubra os valores em real, dólar, euro ou até bitcoin
+  </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+  <div class="coin-input">
+
+    <label for="from-coin">Insira o valor em:</label><br><br>
+    <select name="from-coin" id="from-coin">
+      <optgroup label="cripto">
+        <option value="bitcoin" id="bitcoin">Bitcoin</option>
+      </optgroup>
+
+      <optgroup label="moedas">
+        <option value="real" id="real">Real</option>
+        <option value="dolar" id="dolar">Dólar</option>
+        <option value="euro" id="euro">Euro</option>
+      </optgroup>
+    </select>
+  </div>
+
+  <div class="coin-input">
+    <label for="to-coin">Deseja converter em:</label><br><br>
+    <select name="to-coin" id="to-coin">
+      <optgroup label="cripto">
+        <option value="bitcoin" id="bitcoin">Bitcoin</option>
+      </optgroup>
+
+      <optgroup label="moedas">
+        <option value="real" id="real">Real</option>
+        <option value="dolar" id="dolar">Dólar</option>
+        <option value="euro" id="euro">Euro</option>
+      </optgroup>
+    </select>
+  </div>
+
+  <input type="number" id="valor" size="2" /><br>
+  <button type="submit" onclick="Converter()">Converter</button>
+  <h2 id="valorConvertido"></h2>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
