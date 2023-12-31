@@ -1,6 +1,12 @@
-# Conversor de moedas 
+# Currency converter
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/Dansan17/pen/LYOKOwr](https://codepen.io/Dansan17/pen/LYOKOwr).
+A complete currency converter with 4 currency options:
 
-Website: https://dannog18.github.io/alura-coins-converter/
+- Real
+- Dollar 
+- Euro
+- Bitcoin
 
+How it works: all you have to do is choose the currency you want to use and the currency you want to convert to. 
+
+Then enter the amount you want, click on "Convert", and then the magic happens.
